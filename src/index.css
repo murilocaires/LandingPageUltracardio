@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --ultracardio-red: #c8102e;
+  --ultracardio-red-dark: #a00020;
+  --ultracardio-gray: #f7f7f7;
+  --ultracardio-gray-dark: #4a5568;
+}
+
+@layer utilities {
+  .bg-ultracardio-red {
+    background-color: var(--ultracardio-red);
+  }
+  .bg-ultracardio-red-dark {
+    background-color: var(--ultracardio-red-dark);
+  }
+  .bg-ultracardio-gray {
+    background-color: var(--ultracardio-gray);
+  }
+  .text-ultracardio-red {
+    color: var(--ultracardio-red);
+  }
+  .text-ultracardio-gray-dark {
+    color: var(--ultracardio-gray-dark);
+  }
+}
+
+/* Rolagem suave para toda a página */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ajuste para o header fixo */
+section[id] {
+  scroll-margin-top: 70px;
+}
