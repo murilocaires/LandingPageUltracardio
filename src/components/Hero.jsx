@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-br from-white to-[var(--ultracardio-gray)] pt-24 sm:pt-28 px-2 sm:px-8 lg:px-16 py-16 sm:py-20 cursor-default"
+      className="bg-gradient-to-br from-white to-[var(--ultracardio-gray)] pt-24 sm:pt-28 px-4 sm:px-8 lg:px-16 cursor-default h-[390px] flex items-center"
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 pb-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Texto */}
           <div className="text-center md:text-left md:flex md:items-center md:h-full">

@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-ultracardio-gray py-16 sm:py-20 px-2 sm:px-8 lg:px-16"
+      className="bg-ultracardio-gray py-16 sm:py-20 px-4 sm:px-8 lg:px-16"
     >
       <div className="container mx-auto px-4">
         {/* Tag centralizada */}

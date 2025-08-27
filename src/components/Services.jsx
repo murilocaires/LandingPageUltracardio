@@ -1,10 +1,17 @@
 import React from "react";
-import { HeartbeatIcon, PulseIcon, PersonSimpleRunIcon, StethoscopeIcon, ListChecksIcon, CalendarDotsIcon } from '@phosphor-icons/react'
+import {
+  HeartbeatIcon,
+  PulseIcon,
+  PersonSimpleRunIcon,
+  StethoscopeIcon,
+  ListChecksIcon,
+  CalendarDotsIcon,
+} from "@phosphor-icons/react";
 export function Services() {
   return (
     <section
       id="servicos"
-      className="py-16 sm:py-20 px-2 sm:px-8 lg:px-16 bg-white"
+      className="py-16 sm:py-20 px-4 sm:px-8 lg:px-16 bg-white"
     >
       <div className="flex justify-center mb-8">
         <span className="inline-block bg-ultracardio-red text-white px-4 py-2 rounded-full text-sm font-medium">
@@ -27,7 +34,6 @@ export function Services() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-          
             <PulseIcon className="text-ultracardio-red " size={32} />
             <h3 className="text-xl font-semibold mb-3">Eletrocardiograma</h3>
             <p className="text-gray-600">
@@ -38,7 +44,7 @@ export function Services() {
 
           {/* Card 2 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-          <HeartbeatIcon className="text-ultracardio-red " size={32} />
+            <HeartbeatIcon className="text-ultracardio-red " size={32} />
             <h3 className="text-xl font-semibold mb-3">Ecocardiograma</h3>
             <p className="text-gray-600">
               Ultrassom do coração que avalia estrutura e funcionamento das
@@ -48,7 +54,7 @@ export function Services() {
 
           {/* Card 3 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-          <PersonSimpleRunIcon className="text-ultracardio-red " size={32} />
+            <PersonSimpleRunIcon className="text-ultracardio-red " size={32} />
             <h3 className="text-xl font-semibold mb-3">Teste Ergométrico</h3>
             <p className="text-gray-600">
               Avaliação da resposta cardiovascular durante exercício físico
@@ -58,7 +64,7 @@ export function Services() {
 
           {/* Card 4 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-          <StethoscopeIcon className="text-ultracardio-red " size={32} />
+            <StethoscopeIcon className="text-ultracardio-red " size={32} />
             <h3 className="text-xl font-semibold mb-3">
               Consultas Especializadas
             </h3>
@@ -70,7 +76,7 @@ export function Services() {
 
           {/* Card 5 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-          <ListChecksIcon className="text-ultracardio-red " size={32} />
+            <ListChecksIcon className="text-ultracardio-red " size={32} />
             <h3 className="text-xl font-semibold mb-3">
               Check-up Cardiológico
             </h3>
@@ -82,7 +88,7 @@ export function Services() {
 
           {/* Card 6 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-          <CalendarDotsIcon className="text-ultracardio-red " size={32} />
+            <CalendarDotsIcon className="text-ultracardio-red " size={32} />
             <h3 className="text-xl font-semibold mb-3">Acompanhamento</h3>
             <p className="text-gray-600">
               Monitoramento contínuo e personalizado para pacientes com
