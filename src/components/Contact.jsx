@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <section
       id="contato"
-      className="pt-20 pb-20 px-2 sm:px-8 lg:px-16 bg-gradient-to-br from-ultracardio-gray to-gray-100"
+      className="pt-20 pb-16 sm:pb-20 px-2 sm:px-8 lg:px-16 bg-gradient-to-br from-ultracardio-gray to-gray-100"
     >
       <div className="container mx-auto">
         {/* Badge */}

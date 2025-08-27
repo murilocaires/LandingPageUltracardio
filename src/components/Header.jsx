@@ -41,7 +41,7 @@ export default function Header() {
 
   return (
     <header className="bg-[white] shadow-sm fixed w-full top-0 z-[50] cursor-default">
-      <div className="mx-auto px-[1rem] py-[1rem] flex justify-between items-center max-w-[1200px]">
+      <div className="mx-auto px-4 sm:px-[1rem] py-[1rem]  flex justify-between items-center max-w-[1200px]">
         {/* Logo */}
         <a
           href="#top"

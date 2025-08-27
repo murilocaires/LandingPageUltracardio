@@ -2,7 +2,10 @@ import React from "react";
 
 export function Services() {
   return (
-    <section id="servicos" className="py-20 px-2 sm:px-8 lg:px-16 bg-white">
+    <section
+      id="servicos"
+      className="py-16 sm:py-20 px-2 sm:px-8 lg:px-16 bg-white"
+    >
       <div className="flex justify-center mb-8">
         <span className="inline-block bg-ultracardio-red text-white px-4 py-2 rounded-full text-sm font-medium">
           Serviços

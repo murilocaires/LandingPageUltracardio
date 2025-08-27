@@ -30,7 +30,13 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Ajuste para o header fixo */
+/* Ajuste para o header fixo - responsivo */
 section[id] {
-  scroll-margin-top: 70px;
+  scroll-margin-top: 60px; /* Para mobile */
+}
+
+@media (min-width: 640px) {
+  section[id] {
+    scroll-margin-top: 70px; /* Para desktop */
+  }
 }
