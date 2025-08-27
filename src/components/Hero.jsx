@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-br from-white to-[var(--ultracardio-gray)] pt-24 sm:pt-28 px-4 sm:px-8 lg:px-16 cursor-default lex items-center"
+      className="bg-gradient-to-br from-white to-[var(--ultracardio-gray)] pt-24 sm:pt-28 px-4 sm:px-8 lg:px-16 cursor-default lex items-center h-[390px] sm:h-auto"
     >
       <div className="container mx-auto px-4 pb-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
