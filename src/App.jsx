@@ -6,10 +6,9 @@ import { Services } from "./components/Services";
 import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
 
-
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Hero />
       <About />
@@ -17,7 +16,7 @@ function App() {
       <Team />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
