@@ -49,7 +49,7 @@ export default function Hero() {
             <img
               className="w-full h-[500px] object-cover "
               src="/src/assets/capa2.png"
-              alt="Interior moderno da clínica médica Ultracardio em Serrinha, BA"
+              alt="fotos de Dra. Valéria de Matos Caires e Dr. Murillo Caires Ribeiro De Jaleco"
               width="600"
               height="400"
               loading="lazy"

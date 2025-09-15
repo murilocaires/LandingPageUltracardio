@@ -1,4 +1,7 @@
 import React from "react";
+import valeriaImage from "../assets/valeria.png";
+import murilloImage from "../assets/murillo.png";
+import aliceImage from "../assets/alice.jpg";
 
 export function Team() {
   const doctors = [
@@ -6,19 +9,19 @@ export function Team() {
       name: "Dra. Valéria de Matos Caires",
       role: "Cardiologista / Ultrassonografista / Clínico Geral",
       crm: "CRM-BA 20958 - RQE 23946 / RQE 28101",
-      img: "/src/assets/valeria.png",
+      img: valeriaImage,
     },
     {
       name: "Dr. Murillo Caires Ribeiro",
       role: "Cardiologista / Clínico Geral",
       crm: "CRM-BA 20958 - RQE 23879",
-      img: "/src/assets/murillo.png",
+      img: murilloImage,
     },
     {
       name: "Dra. Alice Ramalho Gomes",
       role: "Ginecologista / Obstetra",
       crm: "CRM-BA 47636 - RQE 26580",
-      img: "/src/assets/alice.jpg",
+      img: aliceImage,
     },
   ];
 
