@@ -18,7 +18,7 @@ export function Contact() {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Localização e Contato
+            Contato e Localização
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Estamos prontos para cuidar da sua saúde cardiovascular

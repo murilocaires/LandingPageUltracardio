@@ -1,11 +1,12 @@
 import React from "react";
 import { Heartbeat } from "@phosphor-icons/react";
+import capaImage from "../assets/capa2.png";
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-br from-white to-[var(--ultracardio-gray)] pt-24 sm:pt-28 px-4 sm:px-8 lg:px-16 cursor-default lex items-center h-[390px] sm:h-auto"
+      className="bg-gradient-to-br from-white to-[var(--ultracardio-gray)] pt-24 sm:pt-28 px-4 sm:px-8 lg:px-16 cursor-default flex items-center h-[390px] sm:h-auto"
     >
       <div className="container mx-auto px-4 pb-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -48,7 +49,7 @@ export default function Hero() {
           <div className="relative hidden md:block">
             <img
               className="w-full h-[500px] object-cover "
-              src="/src/assets/capa2.png"
+              src={capaImage}
               alt="fotos de Dra. Valéria de Matos Caires e Dr. Murillo Caires Ribeiro De Jaleco"
               width="600"
               height="400"

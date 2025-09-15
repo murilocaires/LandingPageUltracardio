@@ -13,7 +13,7 @@ export function Team() {
     },
     {
       name: "Dr. Murillo Caires Ribeiro",
-      role: "Cardiologista / Clínico Geral",
+      role: "Cardiologista / Ultrassonografista / Clínico Geral",
       crm: "CRM-BA 20958 - RQE 23879",
       img: murilloImage,
     },
