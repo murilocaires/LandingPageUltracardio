@@ -3,29 +3,30 @@ import React from "react";
 export function Team() {
   const doctors = [
     {
-      name: "Dr. Carlos Silva",
-      role: "Cardiologista Clínico",
-      crm: "CRM 12345 - 20 anos de experiência",
-      img: "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
+      name: "Dra. Valéria de Matos Caires",
+      role: "Cardiologista / Ultrassonografista / Clínico Geral",
+      crm: "CRM-BA 20958 - RQE 23946 / RQE 28101",
+      img: "/src/assets/valeria.png",
     },
     {
-      name: "Dra. Maria Santos",
-      role: "Ecocardiografista",
-      crm: "CRM 54321 - 15 anos de experiência",
-      img: "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
+      name: "Dr. Murillo Caires Ribeiro",
+      role: "Cardiologista / Ultrassonografista / Clínico Geral",
+      crm: "CRM-BA 20958 - RQE 23946 / RQE 28101",
+      crm: "CRM-BA 20958 - RQE 23879 ",
+      img: "/src/assets/murillo.png",
     },
     {
-      name: "Dr. Roberto Lima",
-      role: "Cardiologia Intervencionista",
-      crm: "CRM 67890 - 18 anos de experiência",
-      img: "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+      name: "Dra. Alice Ramalho Gomes",
+      role: "Ginecologista / Obstetra",
+      crm: "CRM-BA 47636 - RQE 26580",
+      img: "/src/assets/alice.jpg",
     },
   ];
 
   return (
     <section
       id="team"
-      className="py-16 sm:py-20 px-4 sm:px-8 lg:px-16 bg-ultracardio-red "
+      className="py-12 sm:py-16 px-4 sm:px-8 lg:px-16 bg-ultracardio-red "
     >
       <div className="flex justify-center mb-8">
         <span className="inline-block bg-white text-ultracardio-red px-4 py-2 rounded-full text-sm font-medium">
@@ -42,7 +43,7 @@ export function Team() {
         </div>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {doctors.map((doc, index) => (
             <div
               key={index}
@@ -51,10 +52,22 @@ export function Team() {
               <img
                 src={doc.img}
                 alt={doc.name}
-                className="w-24 h-24 rounded-full mx-auto mb-3 object-cover border-4 border-gray-800"
+                className="w-24 h-24 rounded-full mx-auto mb-3 object-cover border-4 border-gray-400"
               />
-              <h4 className="text-lg font-semibold mb-2">{doc.name}</h4>
-              <p className="text-red-600 font-medium mb-1">{doc.role}</p>
+              <h4 className="text-lg font-semibold mb-3">{doc.name}</h4>
+
+              {/* Especialidades em cápsulas */}
+              <div className="flex flex-wrap gap-1 mb-3 justify-center">
+                {doc.role.split(" / ").map((specialty, index) => (
+                  <span
+                    key={index}
+                    className="bg-red-100 text-red-700 px-2 py-1 rounded-full text-xs font-medium"
+                  >
+                    {specialty}
+                  </span>
+                ))}
+              </div>
+
               <p className="text-gray-600 text-sm">{doc.crm}</p>
             </div>
           ))}

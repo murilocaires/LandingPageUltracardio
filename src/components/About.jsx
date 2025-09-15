@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-ultracardio-gray py-16 sm:py-20 px-4 sm:px-8 lg:px-16"
+      className="bg-ultracardio-gray py-12 sm:py-16 px-4 sm:px-8 lg:px-16"
     >
       <div className="container mx-auto px-4">
         {/* Tag centralizada */}
@@ -16,8 +16,7 @@ export default function About() {
 
         {/* Título centralizado */}
         <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-8 text-center">
-          Excelência em{" "}
-          <span className="text-ultracardio-red">Cardiologia</span>
+          Excelência em <span className="text-ultracardio-red">Medicina</span>
         </h2>
 
         {/* Grid com texto lado a lado */}
@@ -26,13 +25,13 @@ export default function About() {
           <div>
             <p className="text-lg text-ultracardio-gray-dark mb-6 leading-relaxed">
               Há mais de duas décadas, a Ultracardio tem sido referência em
-              cuidados cardiológicos, oferecendo diagnósticos precisos e
-              tratamentos inovadores para preservar e melhorar a saúde
-              cardiovascular de nossos pacientes.
+              cuidados médicos especializados, oferecendo diagnósticos precisos
+              em cardiologia, clínica médica e ultrassonografia para preservar e
+              melhorar a saúde integral de nossos pacientes.
             </p>
 
             <p className="text-lg text-ultracardio-gray-dark mb-8 leading-relaxed">
-              Nossa missão é proporcionar cuidados cardiológicos de excelência,
+              Nossa missão é proporcionar cuidados médicos de excelência,
               combinando tecnologia de ponta com o atendimento humanizado,
               sempre priorizando o bem-estar e a qualidade de vida de cada
               paciente.

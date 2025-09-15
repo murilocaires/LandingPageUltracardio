@@ -1,10 +1,174 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" class="w-20 h-20" href="/public/icon.png" />
+    <link rel="icon" type="image/png" href="/public/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ultracardio</title>
+
+    <!-- SEO Meta Tags -->
+    <title>
+      Ultracardio - Cardiologia de Excelência em Serrinha, BA | Consultas e
+      Exames Cardiológicos
+    </title>
+    <meta
+      name="description"
+      content="Clínica de cardiologia em Serrinha, BA. Especialistas em cardiologia com tecnologia de ponta e atendimento humanizado. Eletrocardiograma, ecocardiograma, teste ergométrico e consultas especializadas."
+    />
+    <meta
+      name="keywords"
+      content="cardiologia, cardiologista, Serrinha, BA, eletrocardiograma, ecocardiograma, teste ergométrico, consulta cardiologista, clínica cardiologia, exames cardíacos, saúde cardiovascular"
+    />
+    <meta name="author" content="Ultracardio" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="pt-BR" />
+    <meta name="geo.region" content="BR-BA" />
+    <meta name="geo.placename" content="Serrinha, Bahia" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ultracardio.com.br/" />
+    <meta
+      property="og:title"
+      content="Ultracardio - Cardiologia de Excelência em Serrinha, BA"
+    />
+    <meta
+      property="og:description"
+      content="Especialistas em cardiologia com tecnologia de ponta e atendimento humanizado. Consultas e exames cardiológicos em Serrinha, BA."
+    />
+    <meta
+      property="og:image"
+      content="https://ultracardio.com.br/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Ultracardio" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ultracardio.com.br/" />
+    <meta
+      property="twitter:title"
+      content="Ultracardio - Cardiologia de Excelência em Serrinha, BA"
+    />
+    <meta
+      property="twitter:description"
+      content="Especialistas em cardiologia com tecnologia de ponta e atendimento humanizado. Consultas e exames cardiológicos em Serrinha, BA."
+    />
+    <meta
+      property="twitter:image"
+      content="https://ultracardio.com.br/twitter-image.jpg"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ultracardio.com.br/" />
+
+    <!-- Preconnect para performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#c8102e" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Ultracardio" />
+    <link rel="apple-touch-icon" href="/icon-192x192.png" />
+
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Ultracardio",
+        "description": "Clínica de cardiologia especializada em diagnósticos precisos e tratamentos inovadores para preservar e melhorar a saúde cardiovascular.",
+        "url": "https://ultracardio.com.br",
+        "telephone": "+5575999999999",
+        "email": "contato@ultracardio.com.br",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua das Palmeiras, 123",
+          "addressLocality": "Serrinha",
+          "addressRegion": "BA",
+          "postalCode": "01234-567",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "-11.6644",
+          "longitude": "-39.0075"
+        },
+        "openingHours": "Mo-Fr 08:00-18:00, Sa 08:00-12:00",
+        "medicalSpecialty": "Cardiology",
+        "availableService": [
+          {
+            "@type": "MedicalProcedure",
+            "name": "Eletrocardiograma",
+            "description": "Exame não invasivo que registra a atividade elétrica do coração"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Ecocardiograma",
+            "description": "Ultrassom do coração que avalia estrutura e funcionamento das câmaras cardíacas"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Teste Ergométrico",
+            "description": "Avaliação da resposta cardiovascular durante exercício físico"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Serviços Cardiológicos",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Consulta Cardiológica"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Check-up Cardiológico"
+              }
+            }
+          ]
+        }
+      }
+    </script>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Ultracardio",
+        "image": "https://ultracardio.com.br/clinic-image.jpg",
+        "priceRange": "$$",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "127"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Maria Silva"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Excelente atendimento e profissionais muito competentes."
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

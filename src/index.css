@@ -32,11 +32,11 @@ html {
 
 /* Ajuste para o header fixo - responsivo */
 section[id] {
-  scroll-margin-top: 60px; /* Para mobile */
+  scroll-margin-top: 50px; /* Para mobile */
 }
 
 @media (min-width: 640px) {
   section[id] {
-    scroll-margin-top: 70px; /* Para desktop */
+    scroll-margin-top: 60px; /* Para desktop */
   }
 }

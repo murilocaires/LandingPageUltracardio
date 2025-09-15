@@ -90,7 +90,15 @@ export default function Header() {
         </nav>
 
         {/* Botão CTA */}
-        <button className="bg-[var(--ultracardio-red)] text-[white] px-[1.5rem] py-[0.5rem] rounded-full font-medium hover:bg-[#b00020] transition-colors cursor-pointer flex items-center gap-[0.5rem]">
+        <button
+          className="bg-[var(--ultracardio-red)] text-[white] px-[1.5rem] py-[0.5rem] rounded-full font-medium hover:bg-[#b00020] transition-colors cursor-pointer flex items-center gap-[0.5rem]"
+          onClick={() => {
+            window.open(
+              "https://wa.me/5575991364147?text=Olá, eu gostaria de agendar um procedimento.",
+              "_blank"
+            );
+          }}
+        >
           <svg
             className="w-[1.2em] h-[1.2em]"
             xmlns="http://www.w3.org/2000/svg"

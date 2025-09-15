@@ -20,11 +20,12 @@ export default function Hero() {
                 e carinho
               </h1>
               <p className="text-base sm:text-lg text-gray-600 mb-6">
-                Especialistas em cardiologia com tecnologia de ponta e
-                atendimento humanizado para cuidar da sua saúde cardiovascular.
+                Especialistas em cardiologia, obstetrícia e ultrassonografia com
+                tecnologia de ponta e atendimento humanizado para cuidar da sua
+                saúde integral.
               </p>
               <a
-                href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma consulta."
+                href="https://wa.me/5575991364147?text=Olá, eu gostaria de agendar um procedimento."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[var(--ultracardio-red)] text-white px-6 py-3 rounded-full font-semibold text-base hover:bg-red-700 transition inline-flex items-center cursor-pointer"
@@ -46,12 +47,15 @@ export default function Hero() {
           {/* Imagem - Ocultada em mobile */}
           <div className="relative hidden md:block">
             <img
-              className="w-full h-[400px] object-cover rounded-xl shadow-xl"
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/9bf232fe7a-e0caa0a7d8a26dfaed77.png"
-              alt="Interior moderno da clínica de cardiologia"
+              className="w-full h-[500px] object-cover "
+              src="/src/assets/capa2.png"
+              alt="Interior moderno da clínica médica Ultracardio em Serrinha, BA"
+              width="600"
+              height="400"
+              loading="lazy"
             />
             {/* Badge */}
-            <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-lg shadow-lg">
+            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-white p-4 rounded-lg shadow-lg">
               <div className="flex items-center">
                 {/* Ícone Heartbeat do Phosphor Icons */}
                 <Heartbeat
@@ -60,7 +64,7 @@ export default function Hero() {
                 />
                 <div>
                   <p className="font-semibold text-gray-900 text-sm">
-                    15+ anos
+                    19+ anos
                   </p>
                   <p className="text-xs text-gray-600">de experiência</p>
                 </div>
