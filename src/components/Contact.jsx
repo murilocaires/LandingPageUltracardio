@@ -21,7 +21,7 @@ export function Contact() {
             Contato e Localização
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
-            Estamos prontos para cuidar da sua saúde cardiovascular
+            Estamos prontos para cuidar da sua saúde
           </p>
         </div>
 
