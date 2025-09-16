@@ -8,18 +8,18 @@ export function Team() {
     {
       name: "Dra. Valéria de Matos Caires",
       role: "Cardiologista / Ultrassonografista / Clínico Geral",
-      crm: "CRM-BA 20958 - RQE 23946 / RQE 28101",
+      crm: "CRM-BA 21318 - RQE 23946 / RQE 28101",
       img: valeriaImage,
     },
     {
       name: "Dr. Murillo Caires Ribeiro",
-      role: "Cardiologista / Ultrassonografista / Clínico Geral",
+      role: "Cardiologista / Ergometria / Ultrassonografista",
       crm: "CRM-BA 20958 - RQE 23879",
       img: murilloImage,
     },
     {
       name: "Dra. Alice Ramalho Gomes",
-      role: "Ginecologista / Obstetra",
+      role: "Ginecologista / Estética Íntima",
       crm: "CRM-BA 47636 - RQE 26580",
       img: aliceImage,
     },

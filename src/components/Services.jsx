@@ -85,8 +85,8 @@ export function Services() {
               Obstetrícia e Ginecologia
             </h3>
             <p className="text-gray-600">
-              Cuidados especializados para a saúde da mulher, incluindo
-              pré-natal, parto e acompanhamento ginecológico.
+              Cuidados especializados para a saúde da mulher, incluindo inserção
+              de DIU / Implanon, reposição hormonal e estética íntima.
             </p>
           </div>
 

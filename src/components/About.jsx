@@ -24,10 +24,10 @@ export default function About() {
           {/* Coluna esquerda - Texto */}
           <div>
             <p className="text-lg text-ultracardio-gray-dark mb-6 leading-relaxed">
-              Há mais de duas décadas, a Ultracardio tem sido referência em
-              cuidados médicos especializados, oferecendo diagnósticos precisos
-              em cardiologia, clínica médica e ultrassonografia para preservar e
-              melhorar a saúde integral de nossos pacientes.
+              A Ultracardio é referência em cuidados médicos especializados,
+              oferecendo diagnósticos precisos em cardiologia, obstetrícia e
+              ultrassonografia para preservar e melhorar a saúde integral de
+              nossos pacientes.
             </p>
 
             <p className="text-lg text-ultracardio-gray-dark mb-8 leading-relaxed">
