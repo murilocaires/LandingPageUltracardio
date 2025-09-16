@@ -24,8 +24,9 @@ export default function About() {
           {/* Coluna esquerda - Texto */}
           <div>
             <p className="text-lg text-ultracardio-gray-dark mb-6 leading-relaxed">
-              A Ultracardio é referência em cuidados médicos especializados,
-              oferecendo diagnósticos precisos em cardiologia, obstetrícia e
+              Localizada no município de Serrinha na Bahia, a Ultracardio é
+              referência em cuidados médicos especializados, oferecendo
+              diagnósticos precisos em cardiologia, obstetrícia e
               ultrassonografia para preservar e melhorar a saúde integral de
               nossos pacientes.
             </p>
