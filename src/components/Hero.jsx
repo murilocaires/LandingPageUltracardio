@@ -1,6 +1,7 @@
 import React from "react";
 import { Heartbeat } from "@phosphor-icons/react";
 import capaImage from "../assets/capa2.png";
+import AnimatedElement from "./AnimatedElement";
 
 export default function Hero() {
   return (
@@ -11,7 +12,10 @@ export default function Hero() {
       <div className="container mx-auto px-4 pb-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Texto */}
-          <div className="text-center md:text-left md:flex md:items-center md:h-full">
+          <AnimatedElement
+            animationType="fade-up"
+            className="text-center md:text-left md:flex md:items-center md:h-full"
+          >
             <div>
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
                 Cuidando da sua saúde com{" "}
@@ -43,10 +47,14 @@ export default function Hero() {
                 Agendar pelo WhatsApp
               </a>
             </div>
-          </div>
+          </AnimatedElement>
 
           {/* Imagem - Ocultada em mobile */}
-          <div className="relative hidden md:block">
+          <AnimatedElement
+            animationType="slide-right"
+            delay={1}
+            className="relative hidden md:block"
+          >
             <img
               className="w-full h-[500px] object-cover "
               src={capaImage}
@@ -71,7 +79,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </div>
+          </AnimatedElement>
         </div>
       </div>
     </section>

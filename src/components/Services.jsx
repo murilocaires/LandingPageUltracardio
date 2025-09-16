@@ -12,6 +12,7 @@ import {
   ClockIcon,
   BabyIcon,
 } from "@phosphor-icons/react";
+import AnimatedElement from "./AnimatedElement";
 export function Services() {
   return (
     <section
@@ -25,27 +26,31 @@ export function Services() {
       </div>
       <div className="container mx-auto px-4">
         {/* Cabeçalho */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Nossos Serviços
-          </h2>
-          <p className="text-xl text-gray-600">
-            Exames e consultas especializadas para cuidar da sua saúde
-            cardiovascular
-          </p>
-        </div>
+        <AnimatedElement animationType="fade-up">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Nossos Serviços
+            </h2>
+            <p className="text-xl text-gray-600">
+              Exames e consultas especializadas para cuidar da sua saúde
+              cardiovascular
+            </p>
+          </div>
+        </AnimatedElement>
 
         {/* Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
-          <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-            <UserIcon className="text-ultracardio-red " size={32} />
-            <h3 className="text-xl font-semibold mb-3">Clínico Geral</h3>
-            <p className="text-gray-600">
-              Atendimento médico geral para prevenção e tratamento de doenças
-              comuns.
-            </p>
-          </div>
+          <AnimatedElement animationType="scale" delay={1}>
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+              <UserIcon className="text-ultracardio-red " size={32} />
+              <h3 className="text-xl font-semibold mb-3">Clínico Geral</h3>
+              <p className="text-gray-600">
+                Atendimento médico geral para prevenção e tratamento de doenças
+                comuns.
+              </p>
+            </div>
+          </AnimatedElement>
 
           {/* Card 2 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">

@@ -7,6 +7,7 @@ export default function Header() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = [
+        { id: "hero", href: "#hero" },
         { id: "about", href: "#about" },
         { id: "servicos", href: "#servicos" },
         { id: "team", href: "#team" },
@@ -14,6 +15,12 @@ export default function Header() {
       ];
 
       const scrollPosition = window.scrollY + 100; // Offset para o header fixo
+
+      // Se estiver no topo, destacar "Início"
+      if (scrollPosition < 200) {
+        setActiveSection("hero");
+        return;
+      }
 
       for (const section of sections) {
         const element = document.querySelector(section.href);
@@ -27,11 +34,6 @@ export default function Header() {
             break;
           }
         }
-      }
-
-      // Se estiver no topo, não destacar nenhum link
-      if (scrollPosition < 100) {
-        setActiveSection("");
       }
     };
 
@@ -60,6 +62,7 @@ export default function Header() {
         {/* Navegação */}
         <nav className="hidden md:flex gap-[2rem]">
           {[
+            { name: "Início", href: "#hero", id: "hero" },
             { name: "Sobre", href: "#about", id: "about" },
             { name: "Serviços", href: "#servicos", id: "servicos" },
             { name: "Equipe", href: "#team", id: "team" },
