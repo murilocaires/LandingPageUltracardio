@@ -1,7 +1,7 @@
 {
   "name": "Ultracardio - Clínica Médica Especializada em Serrinha, BA",
   "short_name": "Ultracardio",
-  "description": "Clínica médica especializada em cardiologia, obstetrícia e ultrassonografia com 19+ anos de experiência em Serrinha, BA.",
+  "description": "Clínica médica especializada em cardiologia, ginecologia e ultrassonografia em Serrinha, BA.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -9,13 +9,13 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "./src/assets/logo.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "/icon-512x512.png",
+      "src": "./src/assets/logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"

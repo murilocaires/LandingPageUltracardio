@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://ultracardio.com.br/sitemap.xml
+Sitemap: https:/clinicaultracardio.com.br/sitemap.xml
 
 # Crawl-delay para evitar sobrecarga
 Crawl-delay: 1
