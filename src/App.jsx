@@ -5,12 +5,16 @@ import { Team } from "./components/Team";
 import { Services } from "./components/Services";
 import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
+import { Banner } from "./components/Banner";
+
+
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
+      <Banner />
       <About />
       <Services />
       <Team />

@@ -13,7 +13,7 @@ export function Team() {
     },
     {
       name: "Dr. Murillo Caires Ribeiro",
-      role: "Cardiologista / Ergometria / Ultrassonografia",
+      role: "Cardiologista / Ergometria / Ultrassonografia / Ecocardiograma",
       crm: "CRM-BA 20958 - RQE 23879",
       img: murilloImage,
     },
