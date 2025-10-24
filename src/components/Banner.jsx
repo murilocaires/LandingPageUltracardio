@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import Bradesco from '../assets/bradesco-saude.svg';
-import UniaoMedica from '../assets/uniao-medica.png';
+import UniaoMedica from '../assets/uniao-Medica.png';
 import NordesteSaude from '../assets/nordeste_saude.png';
 import Amil from '../assets/amil.png';
 import Petrobras from '../assets/petrobras.png';
@@ -88,7 +88,7 @@ export function Banner() {
     <div className="w-full shadow-lg"> {/* Sombra opcional para destacar o bloco todo */}
       
       {/* --- 2. NOVA FAIXA DE CHAMADA (VERMELHA) --- */}
-      <div className="w-full overflow-hidden bg-red-600 text-white "> {/* Fundo vermelho, fina */}
+      <div className="w-full overflow-hidden bg-red-600 text-white"> {/* Fundo vermelho, fina */}
         <div className="marquee-reverse-track">
           {/* Grupo de texto 1 */}
           <span className="marquee-reverse-group font-semibold uppercase text-sm tracking-wider">
