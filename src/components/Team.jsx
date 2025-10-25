@@ -11,7 +11,7 @@ export function Team() {
       crm: "CRM-BA 21318 - RQE 23946 / RQE 28101",
       img: valeriaImage,
       whatsapp:"5575991364147",
-      message: "Olá, gostaria de agendar um procedimento com Dra. Valéria"
+      message: "Olá, gostaria de agendar um procedimento com Dra. Valéria."
     },
     {
       name: "Dr. Murillo Caires Ribeiro",
@@ -19,7 +19,7 @@ export function Team() {
       crm: "CRM-BA 20958 - RQE 23879",
       img: murilloImage,
       whatsapp: "5575991364147",
-      message: "Olá, gostaria de agendar um procedimento com Dr. Murillo"
+      message: "Olá, gostaria de agendar um procedimento com Dr. Murillo."
     },
     {
       name: "Dra. Alice Ramalho Gomes",
@@ -27,7 +27,7 @@ export function Team() {
       crm: "CRM-BA 47636 - RQE 26580",
       img: aliceImage,
       whatsapp: "5575991364147",
-      message: "Olá, gostaria de agendar um procedimento com Dra. Alice"
+      message: "Olá, gostaria de agendar um procedimento com Dra. Alice."
     },
   ];
 
