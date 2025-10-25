@@ -83,7 +83,7 @@ export function Team() {
                 href={`https://wa.me/${doc.whatsapp}?text=${encodeURIComponent(doc.message)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 mt-4 px-6 py-2 bg-ultracardio-red text-white rounded-full hover:bg-green-600 transition-colors duration-300 text-sm font-medium"
+                className="inline-flex items-center justify-center gap-2 mt-4 px-6 py-2 bg-ultracardio-red text-white rounded-full hover:bg-ultracardio-red-dark transition-colors duration-300 text-sm font-medium"
               >
                 <svg
                   className="w-5 h-5"
