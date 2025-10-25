@@ -25,7 +25,7 @@ export default function Hero() {
                 e carinho
               </h1>
               <p className="text-base sm:text-lg text-gray-600 mb-6">
-                Especialistas em cardiologia, obstetrícia e ultrassonografia com
+                Especialistas em cardiologia, ginecologia e ultrassonografia com
                 tecnologia de ponta e atendimento humanizado para cuidar da sua
                 saúde integral.
               </p>
