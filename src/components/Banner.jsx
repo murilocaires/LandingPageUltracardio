@@ -8,6 +8,7 @@ import Amil from '../assets/amil.png';
 import Petrobras from '../assets/petrobras.png';
 import Atitude from '../assets/atitude.png';
 import Sulamerica from '../assets/sulamerica.png';
+import ASFEB from "../assets/ASFEB.PNG"
 
 export function Banner() {
   const planos = [
@@ -18,6 +19,7 @@ export function Banner() {
     { nome: 'Saúde Petrobras', iconeSrc: Petrobras },
     { nome: 'Atitude Saúde', iconeSrc: Atitude },
     { nome: 'Sulamerica Saúde', iconeSrc: Sulamerica },
+    { nome: 'ASFEB', iconeSrc: ASFEB },
   ];
 
   // Texto para a nova faixa de chamada (repetido para garantir o preenchimento)
