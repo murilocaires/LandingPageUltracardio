@@ -8,7 +8,7 @@ import Amil from '../assets/amil.png';
 import Petrobras from '../assets/petrobras.png';
 import Atitude from '../assets/atitude.png';
 import Sulamerica from '../assets/sulamerica.png';
-import Asfeb from '../assets/asfeb.png';
+import Asfeb from '../assets/asfebb.png';
 
 export function Banner() {
   const planos = [
