@@ -6,12 +6,14 @@ import { Services } from "./components/Services";
 import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
 import { Banner } from "./components/Banner";
+import ChristmasPopup from "./components/ChristmasPopup";
 
 
 
 function App() {
   return (
     <div>
+      <ChristmasPopup />
       <Header />
       <Hero />
       <Banner />
@@ -20,6 +22,7 @@ function App() {
       <Team />
       <Contact />
       <Footer />
+      
     </div>
   );
 }
