@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ChristmasPopup.css'; // Importando o CSS acima
-import natal from "../assets/natal.jpg"
+import natal from "../assets/natalino.jpg"
 
 const ChristmasPopup = () => {
   const [showBanner, setShowBanner] = useState(false);
