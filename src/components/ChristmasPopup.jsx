@@ -1,72 +1,74 @@
 import React, { useState, useEffect } from 'react';
-import './ChristmasPopup.css'; // Importando o CSS acima
-import natal from "../assets/natal.jpg"
+import './ChristmasPopup.css'; // Mantivemos o nome do arquivo para facilitar
+import anoNovo from "../assets/anonovo.jpg" // ✅ Correto (sem chaves)
 
 const ChristmasPopup = () => {
   const [showBanner, setShowBanner] = useState(false);
-  const [rainElements, setRainElements] = useState([]);
+  const [sparkles, setSparkles] = useState([]);
   
-  // Lista de emojis que vão cair
-  const icons = ['🎄', '🎁', '🎅', '❄️', '⭐', '🕯️', '🍪'];
+  // Ícones de Ano Novo / Brilhos
+  const icons = ['✨', '⭐', '🥂', '🎇', '💫', '🌟', '🍾'];
 
   useEffect(() => {
-    // 1. Gerar os elementos da chuva apenas uma vez ao montar
-    const elements = Array.from({ length: 50 }).map((_, i) => ({
+    // 1. Criar brilhos espalhados pela tela inteira
+    const elements = Array.from({ length: 40 }).map((_, i) => ({
       id: i,
       icon: icons[Math.floor(Math.random() * icons.length)],
       style: {
-        left: `${Math.random() * 100}vw`, // Posição horizontal aleatória
-        animationDuration: `${Math.random() * 2 + 3}s`, // Duração entre 3s e 5s
-        fontSize: `${Math.random() * 20 + 20}px`, // Tamanho aleatório
-        animationDelay: `${Math.random() * 2}s` // Atraso para não caírem todos juntos
+        // Posição aleatória na tela toda (X e Y)
+        left: `${Math.random() * 100}vw`, 
+        top: `${Math.random() * 100}vh`, 
+        
+        // Tamanhos variados
+        fontSize: `${Math.random() * 15 + 10}px`, 
+        
+        // Duração da animação (piscada)
+        animationDuration: `${Math.random() * 2+ 2}s`, 
+        
+        // Atraso para começarem a piscar em momentos diferentes
+        animationDelay: `${Math.random() * 5}s` 
       }
     }));
-    setRainElements(elements);
+    setSparkles(elements);
 
-    // 2. Timer para mostrar o banner após 3.5 segundos
+    // 2. Timer para mostrar o banner (3.5 segundos)
     const timer = setTimeout(() => {
       setShowBanner(true);
-    }, 3500);
+    }, 1000);
 
-    // Limpeza do timer caso o usuário saia da página antes
     return () => clearTimeout(timer);
   }, []);
 
-  // Função para fechar o modal
   const handleClose = () => {
     setShowBanner(false);
-    // Opcional: Limpar a chuva também ao fechar? 
-    // Se quiser, descomente a linha abaixo:
-    // setRainElements([]); 
   };
 
   return (
     <>
-      {/* Camada da Chuva de Emojis */}
-      {rainElements.length > 0 && (
-        <div className="christmas-rain-container">
-          {rainElements.map((el) => (
-            <div 
-              key={el.id} 
-              className="christmas-emoji" 
-              style={el.style}
-            >
-              {el.icon}
-            </div>
-          ))}
-        </div>
-      )}
+      {/* Camada dos Brilhos (Fundo) */}
+      <div className="newyear-container">
+        {sparkles.map((el) => (
+          <div 
+            key={el.id} 
+            className="newyear-sparkle" 
+            style={el.style}
+          >
+            {el.icon}
+          </div>
+        ))}
+      </div>
 
-      {/* Camada do Modal (Banner) */}
+      {/* Camada do Banner (Modal) */}
       {showBanner && (
-        <div className="christmas-modal-overlay">
-          <div className="christmas-modal-content">
+        <div className="modal-overlay">
+          <div className="modal-content">
             
-            {/* INSIRA SUA IMAGEM AQUI NO SRC */}
+            {/* --- IMAGEM DE ANO NOVO AQUI --- */}
+            {/* Troque este link pela sua imagem de 2024/2025 */}
             <img 
-              src={natal} 
-              alt="Feliz Natal" 
-              className="christmas-banner-img" 
+              src={anoNovo} 
+              alt="Feliz Ano Novo" 
+              className="banner-img" 
             />
             
             <button className="close-btn" onClick={handleClose}>
@@ -75,7 +77,6 @@ const ChristmasPopup = () => {
           </div>
         </div>
       )}
-      
     </>
   );
 };
