@@ -13,7 +13,7 @@ import ChristmasPopup from "./components/ChristmasPopup";
 function App() {
   return (
     <div>
-      <ChristmasPopup />
+      
       <Header />
       <Hero />
       <Banner />
