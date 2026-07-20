@@ -1,7 +1,7 @@
 import React from "react";
 import valeriaImage from "../assets/valeria.png";
 import murilloImage from "../assets/murillo.png";
-import aliceImage from "../assets/alice.jpg";
+import andreImage from "../assets/andre.jpg";
 
 export function Team() {
   const doctors = [
@@ -22,12 +22,12 @@ export function Team() {
       message: "Olá, gostaria de agendar um procedimento com Dr. Murillo."
     },
     {
-      name: "Dra. Alice Ramalho Gomes",
-      role: "Ginecologista / Estética Íntima",
-      crm: "CRM-BA 47636 - RQE 26580",
-      img: aliceImage,
+      name: "André Peixinho",
+      role: "Nutricionista",
+      crm: "CRN-5 26419",
+      img: andreImage,
       whatsapp: "5575991364147",
-      message: "Olá, gostaria de agendar um procedimento com Dra. Alice."
+      message: "Olá, gostaria de agendar uma consulta com André Peixinho."
     },
   ];
 

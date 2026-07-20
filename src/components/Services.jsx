@@ -83,18 +83,6 @@ export function Services() {
             </p>
           </div>
 
-          {/* Card 4 */}
-          <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-            <BabyIcon className="text-ultracardio-red " size={32} />
-            <h3 className="text-xl font-semibold mb-3">
-              Obstetrícia e Ginecologia
-            </h3>
-            <p className="text-gray-600">
-              Cuidados especializados para a saúde da mulher, incluindo inserção
-              de DIU / Implanon, reposição hormonal e estética íntima.
-            </p>
-          </div>
-
           {/* Card 5 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
             <PulseIcon className="text-ultracardio-red " size={32} />
